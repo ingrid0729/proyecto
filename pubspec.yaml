@@ -1,0 +1,30 @@
+name: gastos_personales
+
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  charts_flutter: ^0.12.0
+  sqflite: ^2.4.1
+  sqflite_common_ffi: ^2.3.4+4
+  path: any
+  cupertino_icons: ^1.0.8
+  intl: 0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+
